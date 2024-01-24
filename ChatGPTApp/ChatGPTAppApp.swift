@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+<<<<<<< HEAD
 
 @main
 struct ChatGPTAppApp: App {
@@ -15,3 +16,33 @@ struct ChatGPTAppApp: App {
         }
     }
 }
+=======
+import FirebaseCore
+
+class AppDelegate: NSObject, UIApplicationDelegate {
+
+  func application(_ application: UIApplication,
+
+                   didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
+
+    FirebaseApp.configure()
+
+    return true
+
+  }
+
+}
+
+
+@main
+struct ChatGPTAppApp: App {
+    @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
+    var body: some Scene {
+        WindowGroup {
+            ChatView().environmentObject(AuthViewModel())
+//            NavigationView {  ChatView().environmentObject(AuthViewModel())   }
+        }
+    }
+}
+
+>>>>>>> d7f6955 (Initial Commit)
