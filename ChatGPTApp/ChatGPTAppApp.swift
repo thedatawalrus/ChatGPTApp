@@ -6,17 +6,6 @@
 //
 
 import SwiftUI
-<<<<<<< HEAD
-
-@main
-struct ChatGPTAppApp: App {
-    var body: some Scene {
-        WindowGroup {
-            ContentView()
-        }
-    }
-}
-=======
 import FirebaseCore
 
 class AppDelegate: NSObject, UIApplicationDelegate {
@@ -45,4 +34,3 @@ struct ChatGPTAppApp: App {
     }
 }
 
->>>>>>> d7f6955 (Initial Commit)

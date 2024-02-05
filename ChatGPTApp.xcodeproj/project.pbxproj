@@ -7,11 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-<<<<<<< HEAD
-		C8F52AB02B619776005E32A0 /* ChatGPTAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F52AAF2B619776005E32A0 /* ChatGPTAppApp.swift */; };
-		C8F52AB22B619776005E32A0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F52AB12B619776005E32A0 /* ContentView.swift */; };
-=======
-		C84E87882B680B1600A890A0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C84E87872B680B1600A890A0 /* GoogleService-Info.plist */; };
 		C84E878B2B680B7C00A890A0 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = C84E878A2B680B7C00A890A0 /* FirebaseAnalytics */; };
 		C84E878D2B680B7C00A890A0 /* FirebaseAnalyticsOnDeviceConversion in Frameworks */ = {isa = PBXBuildFile; productRef = C84E878C2B680B7C00A890A0 /* FirebaseAnalyticsOnDeviceConversion */; };
 		C84E878F2B680B7C00A890A0 /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = C84E878E2B680B7C00A890A0 /* FirebaseAnalyticsSwift */; };
@@ -22,21 +17,18 @@
 		C84E879A2B6ACBA200A890A0 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = C84E87992B6ACBA200A890A0 /* FirebaseFirestore */; };
 		C84E879E2B6C021400A890A0 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = C84E879D2B6C021400A890A0 /* FirebaseAuth */; };
 		C84E87A62B6C28CC00A890A0 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84E87A52B6C28CC00A890A0 /* AuthViewModel.swift */; };
+		C8BC85F92B718E600072437B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C8BC85F82B718E600072437B /* GoogleService-Info.plist */; };
 		C8F52AB02B619776005E32A0 /* ChatGPTAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F52AAF2B619776005E32A0 /* ChatGPTAppApp.swift */; };
 		C8F52AB22B619776005E32A0 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F52AB12B619776005E32A0 /* ChatView.swift */; };
->>>>>>> d7f6955 (Initial Commit)
 		C8F52AB42B619777005E32A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8F52AB32B619777005E32A0 /* Assets.xcassets */; };
 		C8F52AB72B619777005E32A0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8F52AB62B619777005E32A0 /* Preview Assets.xcassets */; };
 		C8F52AC12B619777005E32A0 /* ChatGPTAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F52AC02B619777005E32A0 /* ChatGPTAppTests.swift */; };
 		C8F52ACB2B619777005E32A0 /* ChatGPTAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F52ACA2B619777005E32A0 /* ChatGPTAppUITests.swift */; };
 		C8F52ACD2B619777005E32A0 /* ChatGPTAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F52ACC2B619777005E32A0 /* ChatGPTAppUITestsLaunchTests.swift */; };
-<<<<<<< HEAD
-=======
 		C8F52ADA2B6197C9005E32A0 /* ChatViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F52AD92B6197C9005E32A0 /* ChatViewModel.swift */; };
 		C8F52ADC2B61992B005E32A0 /* OpenAIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F52ADB2B61992B005E32A0 /* OpenAIService.swift */; };
 		C8F52AE12B61A14B005E32A0 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = C8F52AE02B61A14B005E32A0 /* Alamofire */; };
 		C8F52AE32B61A3C3005E32A0 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F52AE22B61A3C3005E32A0 /* Constants.swift */; };
->>>>>>> d7f6955 (Initial Commit)
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,17 +49,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-<<<<<<< HEAD
-		C8F52AAC2B619776005E32A0 /* ChatGPTApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatGPTApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C8F52AAF2B619776005E32A0 /* ChatGPTAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatGPTAppApp.swift; sourceTree = "<group>"; };
-		C8F52AB12B619776005E32A0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-=======
-		C84E87872B680B1600A890A0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Documents/Lucidity/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		C84E87A52B6C28CC00A890A0 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
+		C8BC85F82B718E600072437B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		C8F52AAC2B619776005E32A0 /* ChatGPTApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatGPTApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8F52AAF2B619776005E32A0 /* ChatGPTAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatGPTAppApp.swift; sourceTree = "<group>"; };
 		C8F52AB12B619776005E32A0 /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
->>>>>>> d7f6955 (Initial Commit)
 		C8F52AB32B619777005E32A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C8F52AB62B619777005E32A0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C8F52ABC2B619777005E32A0 /* ChatGPTAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChatGPTAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -75,12 +61,9 @@
 		C8F52AC62B619777005E32A0 /* ChatGPTAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChatGPTAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8F52ACA2B619777005E32A0 /* ChatGPTAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatGPTAppUITests.swift; sourceTree = "<group>"; };
 		C8F52ACC2B619777005E32A0 /* ChatGPTAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatGPTAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
-<<<<<<< HEAD
-=======
 		C8F52AD92B6197C9005E32A0 /* ChatViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewModel.swift; sourceTree = "<group>"; };
 		C8F52ADB2B61992B005E32A0 /* OpenAIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenAIService.swift; sourceTree = "<group>"; };
 		C8F52AE22B61A3C3005E32A0 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
->>>>>>> d7f6955 (Initial Commit)
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,8 +71,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-<<<<<<< HEAD
-=======
 				C84E878F2B680B7C00A890A0 /* FirebaseAnalyticsSwift in Frameworks */,
 				C84E87912B680B7C00A890A0 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */,
 				C84E878B2B680B7C00A890A0 /* FirebaseAnalytics in Frameworks */,
@@ -98,7 +79,6 @@
 				C8F52AE12B61A14B005E32A0 /* Alamofire in Frameworks */,
 				C84E879A2B6ACBA200A890A0 /* FirebaseFirestore in Frameworks */,
 				C84E879E2B6C021400A890A0 /* FirebaseAuth in Frameworks */,
->>>>>>> d7f6955 (Initial Commit)
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -106,11 +86,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-<<<<<<< HEAD
-=======
 				C84E87972B6AB44800A890A0 /* FirebaseAnalyticsSwift in Frameworks */,
 				C84E87952B6AB44800A890A0 /* FirebaseAnalytics in Frameworks */,
->>>>>>> d7f6955 (Initial Commit)
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -124,8 +101,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-<<<<<<< HEAD
-=======
 		C84E87982B6ACBA200A890A0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -133,7 +108,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
->>>>>>> d7f6955 (Initial Commit)
 		C8F52AA32B619776005E32A0 = {
 			isa = PBXGroup;
 			children = (
@@ -141,10 +115,7 @@
 				C8F52ABF2B619777005E32A0 /* ChatGPTAppTests */,
 				C8F52AC92B619777005E32A0 /* ChatGPTAppUITests */,
 				C8F52AAD2B619776005E32A0 /* Products */,
-<<<<<<< HEAD
-=======
 				C84E87982B6ACBA200A890A0 /* Frameworks */,
->>>>>>> d7f6955 (Initial Commit)
 			);
 			sourceTree = "<group>";
 		};
@@ -162,16 +133,12 @@
 			isa = PBXGroup;
 			children = (
 				C8F52AAF2B619776005E32A0 /* ChatGPTAppApp.swift */,
-<<<<<<< HEAD
-				C8F52AB12B619776005E32A0 /* ContentView.swift */,
-=======
 				C8F52AE22B61A3C3005E32A0 /* Constants.swift */,
 				C84E87A52B6C28CC00A890A0 /* AuthViewModel.swift */,
 				C8F52AB12B619776005E32A0 /* ChatView.swift */,
-				C84E87872B680B1600A890A0 /* GoogleService-Info.plist */,
+				C8BC85F82B718E600072437B /* GoogleService-Info.plist */,
 				C8F52AD92B6197C9005E32A0 /* ChatViewModel.swift */,
 				C8F52ADB2B61992B005E32A0 /* OpenAIService.swift */,
->>>>>>> d7f6955 (Initial Commit)
 				C8F52AB32B619777005E32A0 /* Assets.xcassets */,
 				C8F52AB52B619777005E32A0 /* Preview Content */,
 			);
@@ -219,8 +186,6 @@
 			dependencies = (
 			);
 			name = ChatGPTApp;
-<<<<<<< HEAD
-=======
 			packageProductDependencies = (
 				C8F52AE02B61A14B005E32A0 /* Alamofire */,
 				C84E878A2B680B7C00A890A0 /* FirebaseAnalytics */,
@@ -231,7 +196,6 @@
 				C84E87992B6ACBA200A890A0 /* FirebaseFirestore */,
 				C84E879D2B6C021400A890A0 /* FirebaseAuth */,
 			);
->>>>>>> d7f6955 (Initial Commit)
 			productName = ChatGPTApp;
 			productReference = C8F52AAC2B619776005E32A0 /* ChatGPTApp.app */;
 			productType = "com.apple.product-type.application";
@@ -250,13 +214,10 @@
 				C8F52ABE2B619777005E32A0 /* PBXTargetDependency */,
 			);
 			name = ChatGPTAppTests;
-<<<<<<< HEAD
-=======
 			packageProductDependencies = (
 				C84E87942B6AB44800A890A0 /* FirebaseAnalytics */,
 				C84E87962B6AB44800A890A0 /* FirebaseAnalyticsSwift */,
 			);
->>>>>>> d7f6955 (Initial Commit)
 			productName = ChatGPTAppTests;
 			productReference = C8F52ABC2B619777005E32A0 /* ChatGPTAppTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -311,13 +272,10 @@
 				Base,
 			);
 			mainGroup = C8F52AA32B619776005E32A0;
-<<<<<<< HEAD
-=======
 			packageReferences = (
 				C8F52ADF2B61A14B005E32A0 /* XCRemoteSwiftPackageReference "Alamofire" */,
 				C84E87892B680B7C00A890A0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
 			);
->>>>>>> d7f6955 (Initial Commit)
 			productRefGroup = C8F52AAD2B619776005E32A0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -335,11 +293,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C8F52AB72B619777005E32A0 /* Preview Assets.xcassets in Resources */,
+				C8BC85F92B718E600072437B /* GoogleService-Info.plist in Resources */,
 				C8F52AB42B619777005E32A0 /* Assets.xcassets in Resources */,
-<<<<<<< HEAD
-=======
-				C84E87882B680B1600A890A0 /* GoogleService-Info.plist in Resources */,
->>>>>>> d7f6955 (Initial Commit)
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -364,17 +319,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-<<<<<<< HEAD
-				C8F52AB22B619776005E32A0 /* ContentView.swift in Sources */,
+				C8F52AB22B619776005E32A0 /* ChatView.swift in Sources */,
 				C8F52AB02B619776005E32A0 /* ChatGPTAppApp.swift in Sources */,
-=======
 				C8F52AE32B61A3C3005E32A0 /* Constants.swift in Sources */,
 				C8F52AB22B619776005E32A0 /* ChatView.swift in Sources */,
 				C84E87A62B6C28CC00A890A0 /* AuthViewModel.swift in Sources */,
 				C8F52ADA2B6197C9005E32A0 /* ChatViewModel.swift in Sources */,
 				C8F52AB02B619776005E32A0 /* ChatGPTAppApp.swift in Sources */,
 				C8F52ADC2B61992B005E32A0 /* OpenAIService.swift in Sources */,
->>>>>>> d7f6955 (Initial Commit)
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -704,8 +656,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-<<<<<<< HEAD
-=======
 
 /* Begin XCRemoteSwiftPackageReference section */
 		C84E87892B680B7C00A890A0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
@@ -778,7 +728,6 @@
 			productName = Alamofire;
 		};
 /* End XCSwiftPackageProductDependency section */
->>>>>>> d7f6955 (Initial Commit)
 	};
 	rootObject = C8F52AA42B619776005E32A0 /* Project object */;
 }
