@@ -10,34 +10,34 @@ import FirebaseAnalytics
 import FirebaseAuth
 
 
-struct ContentView: View {
-
-@EnvironmentObject private var authModel: AuthViewModel
-var body: some View {
-VStack {
-Text("You're logged in with ID: \(Auth.auth().currentUser?.uid ?? "")").onAppear(perform: authModel.listenToAuthState)
-}.toolbar {
-ToolbarItemGroup(placement: .bottomBar) {
-Button(action: { authModel.signInAnonymously()
-}) {
-HStack {
-Image(systemName: "person.circle") .font(.title)
-Text("Sign in anonymously") .fontWeight(.semibold) .font(.callout)
-}
-}
-}
-ToolbarItemGroup(placement: .cancellationAction) {
-Button(action: { authModel.signOut()
-}) {
-HStack {
-Image(systemName: "rectangle.portrait.and.arrow.right").font(.title)
-Text("Sign Out").fontWeight(.medium)
-}
-}
-}
-}
-}
-}
+//struct ContentView: View {
+//
+//@EnvironmentObject private var authModel: AuthViewModel
+//var body: some View {
+//VStack {
+//Text("You're logged in with ID: \(Auth.auth().currentUser?.uid ?? "")").onAppear(perform: authModel.listenToAuthState)
+//}.toolbar {
+//ToolbarItemGroup(placement: .bottomBar) {
+//Button(action: { authModel.signInAnonymously()
+//}) {
+//HStack {
+//Image(systemName: "person.circle") .font(.title)
+//Text("Sign in anonymously") .fontWeight(.semibold) .font(.callout)
+//}
+//}
+//}
+//ToolbarItemGroup(placement: .cancellationAction) {
+//Button(action: { authModel.signOut()
+//}) {
+//HStack {
+//Image(systemName: "rectangle.portrait.and.arrow.right").font(.title)
+//Text("Sign Out").fontWeight(.medium)
+//}
+//}
+//}
+//}
+//}
+//}
 
 //struct ContentView_Previews: PreviewProvider { static var previews: some View {
 //ContentView()
